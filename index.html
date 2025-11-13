@@ -47,17 +47,17 @@
           <div class="traditions-container">
             <div class="traditions-content">
               <h2 class="section-title">Новий формат традицій</h2>
-            <p class="traditions-title traditions-text">
-              <span class="brand-uppercase">shop bakery</span> — це пекарня, яка
-              взяла все найкраще, і зберегла смак традиційної випічки та
-              натуральність інгредієнтів.
-            </p>
-            <p class="traditions-text limited">
-              Ми працюємо як найвідоміші мережі—
-              <span class="brand">5 хвилин і замовлення готове.</span> 
-              А ще у наших пекарень стильний дизайн та висока якість
-              обслуговування!
-            </p>
+              <p class="traditions-title traditions-text">
+                <span class="brand-uppercase">shop bakery</span> — це пекарня,
+                яка взяла все найкраще, і зберегла смак традиційної випічки та
+                натуральність інгредієнтів.
+              </p>
+              <p class="traditions-text limited">
+                Ми працюємо як найвідоміші мережі—
+                <span class="brand">5 хвилин і замовлення готове.</span>
+                А ще у наших пекарень стильний дизайн та висока якість
+                обслуговування!
+              </p>
             </div>
             <img
               src="./img/bakerman.jpg"
@@ -68,13 +68,17 @@
       </section>
       <section class="section" id="chefs-section">
         <div class="container">
-          <h2 class="chefs-title section-title">
+          <h2 class="chefs-title section-title centered">
             Наші найкращі <span class="accent">шеф-кухарі</span>
           </h2>
           <ul>
             <li>
               <article>
-                <img src="./img/nastya.jpg" alt="Шеф-кухар Анастасія" />
+                <img
+                  class="shef-photo"
+                  src="./img/nastya.jpg"
+                  alt="Шеф-кухар Анастасія"
+                />
                 <h3 class="chef-title">Настя</h3>
                 <p>Привіт, я Настя!</p>
                 <p>Вже 10 років, я свтілюю у життя цікаві та смачні ідеї.</p>
@@ -83,7 +87,11 @@
             </li>
             <li>
               <article>
-                <img src="./img/vlad-shef.jpg" alt="Шеф-кухар Влад" />
+                <img
+                  class="shef-photo"
+                  src="./img/vlad-shef.jpg"
+                  alt="Шеф-кухар Влад"
+                />
                 <h3 class="chef-title">Влад</h3>
                 <p>Привіт, я Влад!</p>
                 <p>
@@ -98,7 +106,12 @@
       </section>
       <section class="section" id="formats-section">
         <div class="container">
-          <h2 class="formats-title section-title">Формати</h2>
+          <h2 class="formats-title section-title centered">Формати</h2>
+          <button class="carousel-button" type="button">
+            <svg width="16" height="16">
+              <use href="./img/icons.svg#icon-Arrow-1"></use>
+            </svg>
+          </button>
           <ul class="formats-list">
             <li class="formats-item">
               <article class="format-card">
@@ -137,6 +150,11 @@
               </article>
             </li>
           </ul>
+          <button class="carousel-button" type="button">
+            <svg width="16" height="16">
+              <use href="./img/icons.svg#icon-Arrow-1"></use>
+            </svg>
+          </button>
         </div>
       </section>
       <section class="section" id="contact-section">
@@ -158,7 +176,7 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <div class="container">
         <nav>
           <a href="#">
@@ -194,12 +212,16 @@
             </li>
             <li>
               <a href="#">
-                <!-- facebook -->
+                <svg class="address-icons" width="32" height="32">
+                  <use href="./img/icons.svg#icon-facebook"></use>
+                </svg>
               </a>
             </li>
             <li>
               <a href="#">
-                <!-- instagram -->
+                <svg class="address-icons" width="32" height="32">
+                  <use href="./img/icons.svg#icon-instagram"></use>
+                </svg>
               </a>
             </li>
           </ul>
